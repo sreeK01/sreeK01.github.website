@@ -5,16 +5,16 @@ body {
 
 @font-face {
   font-family: "flame-regular";
-  src: url("./Fonts/flame-regular.otf") format("opentype");
+  src: url("flame-regular.otf") format("opentype");
 }
 
 .header {
   background-color: rgb(255, 255, 255);
   width: 100%;
   height: 75px;
-  position: fixed; /* Fix the header position */
-  top: 0; /* Stick it to the top of the viewport */
-  z-index: 1000; /* Ensure it's above other content */
+  position: fixed;
+  top: 0; 
+  z-index: 1000; 
 
 }
 
@@ -129,7 +129,7 @@ letter-spacing: normal;
 word-spacing: 0px;
 padding: 4px 10px 0px;
 
-transform: scaleY(.9); /* Adjust the scaling factor as needed */
+transform: scaleY(.9); 
 
 
 
